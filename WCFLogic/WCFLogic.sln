@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLogic", "WCFLogic.csproj", "{3A96A807-4F07-4025-803C-2127BD6DE664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A96A807-4F07-4025-803C-2127BD6DE664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A96A807-4F07-4025-803C-2127BD6DE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A96A807-4F07-4025-803C-2127BD6DE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A96A807-4F07-4025-803C-2127BD6DE664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0EA73A0-7A44-4A4C-BB94-B1FA5B4914D7}
+	EndGlobalSection
+EndGlobal
