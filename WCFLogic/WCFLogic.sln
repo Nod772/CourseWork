@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLogic", "WCFLogic.csproj", "{3A96A807-4F07-4025-803C-2127BD6DE664}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "..\User\User.csproj", "{5451E46E-BB37-4959-BE16-6C52AB12D8A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A96A807-4F07-4025-803C-2127BD6DE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A96A807-4F07-4025-803C-2127BD6DE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A96A807-4F07-4025-803C-2127BD6DE664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
