@@ -17,7 +17,9 @@ namespace Teacher
         {
         }
 
-       
+        DbSet<Class.Test> Tests;
+        DbSet<Class.Teacher> Teachers;
+
     }
 
     //public class MyEntity

@@ -8,7 +8,7 @@ namespace User
 {
     public class User
     {
-        string SessionID;
+       
         string Name;
         string Surname;
         double Mark;

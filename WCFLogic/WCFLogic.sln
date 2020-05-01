@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLogic", "WCFLogic.csproj", "{3A96A807-4F07-4025-803C-2127BD6DE664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "..\User\User.csproj", "{5451E46E-BB37-4959-BE16-6C52AB12D8A5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{1DEBBE44-5BE6-4A5A-A161-00721DCA59CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher", "..\Teacher\Teacher.csproj", "{801A5272-9D0C-470A-975A-7844120D2BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDB", "..\TestDB\TestDB.csproj", "{331575A3-9E51-4FBE-A16B-F13792DFEFFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,20 +21,21 @@ Global
 		{3A96A807-4F07-4025-803C-2127BD6DE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A96A807-4F07-4025-803C-2127BD6DE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A96A807-4F07-4025-803C-2127BD6DE664}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5451E46E-BB37-4959-BE16-6C52AB12D8A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{801A5272-9D0C-470A-975A-7844120D2BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{801A5272-9D0C-470A-975A-7844120D2BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{801A5272-9D0C-470A-975A-7844120D2BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{801A5272-9D0C-470A-975A-7844120D2BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{801A5272-9D0C-470A-975A-7844120D2BF2} = {1DEBBE44-5BE6-4A5A-A161-00721DCA59CB}
+		{331575A3-9E51-4FBE-A16B-F13792DFEFFC} = {1DEBBE44-5BE6-4A5A-A161-00721DCA59CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0EA73A0-7A44-4A4C-BB94-B1FA5B4914D7}
