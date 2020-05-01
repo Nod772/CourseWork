@@ -10,7 +10,7 @@ namespace TestDB
     {
         static void Main(string[] args)
         {
-            using (Testing)
+            using ()
             {
 
             }
