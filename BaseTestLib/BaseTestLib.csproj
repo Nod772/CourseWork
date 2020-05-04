@@ -52,17 +52,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnswerOption.cs" />
+    <Compile Include="Classes\WrapperTeacher.cs" />
+    <Compile Include="Entity\AnswerOption.cs" />
+    <Compile Include="Classes\Wrapper.cs" />
+    <Compile Include="Classes\WrapperTeacher2.cs" />
+    <Compile Include="Interfaces\IWrapper.cs" />
     <Compile Include="Migrations\202005041537445_First Start.cs" />
     <Compile Include="Migrations\202005041537445_First Start.Designer.cs">
       <DependentUpon>202005041537445_First Start.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005041826061_WithDTO.cs" />
+    <Compile Include="Migrations\202005041826061_WithDTO.Designer.cs">
+      <DependentUpon>202005041826061_WithDTO.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Question.cs" />
-    <Compile Include="Teasher.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="TestModel.cs" />
+    <Compile Include="Entity\Question.cs" />
+    <Compile Include="Entity\Teacher.cs" />
+    <Compile Include="Entity\Test.cs" />
+    <Compile Include="Entity\TestModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -74,6 +82,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202005041537445_First Start.resx">
       <DependentUpon>202005041537445_First Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005041826061_WithDTO.resx">
+      <DependentUpon>202005041826061_WithDTO.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

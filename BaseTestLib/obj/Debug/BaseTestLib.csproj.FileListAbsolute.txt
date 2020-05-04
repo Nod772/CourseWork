@@ -13,3 +13,5 @@ D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.dll
 D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.pdb
 D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.Migrations.FirstStart.resources
 D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.csproj.GenerateResource.cache
+D:\ITSTEP\CourseWork\BaseTestLib\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.Migrations.WithDTO.resources

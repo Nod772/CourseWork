@@ -10,3 +10,9 @@ D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.csproj.CoreCompileInputs.cache
 D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.csproj.CopyComplete
 D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.dll
 D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.pdb
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\BaseTestLib.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\BaseTestLib.pdb
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\BaseTestLib.dll.config
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\AutoMapper.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\AutoMapper.pdb
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\AutoMapper.xml

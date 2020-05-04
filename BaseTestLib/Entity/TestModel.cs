@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BaseTestLib
 {
-    class TestModel:DbContext
+  public  class TestModel:DbContext
     {
         public TestModel():base("name=TestModel")
         {
