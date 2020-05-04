@@ -11,3 +11,5 @@ D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.csproj.CoreCompileInputs.
 D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.csproj.CopyComplete
 D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.dll
 D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.pdb
+D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.Migrations.FirstStart.resources
+D:\ITSTEP\CourseWork\BaseTestLib\obj\Debug\BaseTestLib.csproj.GenerateResource.cache
