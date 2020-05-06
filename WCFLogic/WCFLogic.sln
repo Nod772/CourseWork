@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher", "..\Teacher\Teach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDB", "..\TestDB\TestDB.csproj", "{331575A3-9E51-4FBE-A16B-F13792DFEFFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserWPF", "..\UserWPF\UserWPF.csproj", "{AF7075FD-0AE1-4E0D-92CF-6E10AB2C720C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331575A3-9E51-4FBE-A16B-F13792DFEFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7075FD-0AE1-4E0D-92CF-6E10AB2C720C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7075FD-0AE1-4E0D-92CF-6E10AB2C720C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7075FD-0AE1-4E0D-92CF-6E10AB2C720C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7075FD-0AE1-4E0D-92CF-6E10AB2C720C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
