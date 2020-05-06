@@ -10,7 +10,7 @@ namespace BaseTestLib.Classes
 {
     public abstract class  Wrapper<T> : IWrapper<T> where T:class
     {
-        TestModel context = null;
+       TestModel context = null;
        public DbSet<T> Set { get; set; }
 
         public Wrapper(TestModel testContext)
@@ -20,24 +20,43 @@ namespace BaseTestLib.Classes
         }
         public void AddItem(T item)
         {
-            throw new NotImplementedException();
+            Set.Add(item);
+            Commit();
         }
 
         public void Delete(T item)
         {
-            throw new NotImplementedException();
+            try
+            {
+
+                var forDelete = Set.FirstOrDefault<T>(x=>x.Equals(item));
+                context.Entry(item).State = System.Data.Entity.EntityState.Deleted;
+                Commit();
+            }
+            catch (ArgumentNullException e)
+            {
+
+                throw;
+            }
         }
 
-      
+    
+
+        public void Commit()
+        {
+            context.SaveChanges();
+        }
+
 
         public IEnumerable<T> GetItems()
         {
-            throw new NotImplementedException();
+            return Set.ToList<T>();
         }
 
         public void UpdateItem(T item)
         {
-            throw new NotImplementedException();
+            context.Entry(item).State = System.Data.Entity.EntityState.Modified;
+            Commit();
         }
 
         T IWrapper<T>.Find(T entry)

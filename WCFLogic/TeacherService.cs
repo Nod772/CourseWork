@@ -13,25 +13,30 @@ using BaseTestLib.Interfaces;
 namespace WCFLogic
 {
     // ПРИМЕЧАНИЕ. Команду "Переименовать" в меню "Рефакторинг" можно использовать для одновременного изменения имени класса "Service1" в коде и файле конфигурации.
-    public class TestService : ITestService
+    public class TeacherService : ITeacherService
     {
         IWrapper<Teasher> wrapper;
-      //  WrapperTeacher wrapper = null;
         IMapper mapper = null;
-        public TestService(WrapperTeacher wrap)
+        public TeacherService(WrapperTeacher wrap)
         {
             wrapper = wrap;
             var config = new MapperConfiguration(x=>
             {
                 x.CreateMap<TeacherDTO, Teasher>();
                 x.CreateMap<Teasher, TeacherDTO>();
-            }
-            );
+            });
             mapper = config.CreateMapper();
         }
-        public TestService()
+        public TeacherService()
         {
-
+            wrapper = new WrapperTeacher(new TestModel());
+            var config = new MapperConfiguration(x =>
+            {
+                x.CreateMap<TeacherDTO, Teasher>();
+                x.CreateMap<Teasher, TeacherDTO>();
+            }
+           );
+            mapper = config.CreateMapper();
         }
 
         public void AddTeacher(TeacherDTO teasher)
@@ -41,6 +46,7 @@ namespace WCFLogic
 
         public void DeleteTeacher(TeacherDTO teasher)
         {
+       
             wrapper.Delete(mapper.Map<TeacherDTO, Teasher>(teasher));
         }
 

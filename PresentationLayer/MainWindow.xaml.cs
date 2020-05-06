@@ -21,7 +21,7 @@ namespace PresentationLayer
     /// </summary>
     public partial class MainWindow : Window
     {
-        TestServiceClient proxy = new TestServiceClient();
+        TeacherServiceClient proxy = new TeacherServiceClient();
         public MainWindow()
         {
             InitializeComponent();
@@ -39,10 +39,10 @@ namespace PresentationLayer
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {
-          var teachers= await proxy.GetTeachersAsync();
+            var teachers = await proxy.GetTeachersAsync();
             listbox.ItemsSource = teachers.ToList();
             listbox.DisplayMemberPath = "Name";
-            
+
         }
 
         private void Delete_Click(object sender, RoutedEventArgs e)

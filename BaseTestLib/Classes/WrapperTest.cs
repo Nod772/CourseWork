@@ -7,17 +7,16 @@ using System.Threading.Tasks;
 
 namespace BaseTestLib.Classes
 {
-   public class WrapperTeacher:Wrapper<Teasher>
+    public class WrapperTest : Wrapper<Teasher>
     {
         TestModel context = null;
-        public new DbSet<Teasher> Set { get; set; }
+        public new DbSet<Test> Set { get; set; }
 
-        public WrapperTeacher(TestModel model):base(model)
+        public WrapperTest(TestModel model) : base(model)
         {
             context = model;
-            Set = model.Teashers;
+            Set = model.Tests;
         }
-      
 
 
     }

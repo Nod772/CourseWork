@@ -52,10 +52,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\WrapperQuestion.cs" />
     <Compile Include="Classes\WrapperTeacher.cs" />
+    <Compile Include="Classes\WrapperTest.cs" />
     <Compile Include="Entity\AnswerOption.cs" />
     <Compile Include="Classes\Wrapper.cs" />
     <Compile Include="Classes\WrapperTeacher2.cs" />
+    <Compile Include="Entity\WrapperAnswerOption.cs" />
     <Compile Include="Interfaces\IWrapper.cs" />
     <Compile Include="Migrations\202005041537445_First Start.cs" />
     <Compile Include="Migrations\202005041537445_First Start.Designer.cs">

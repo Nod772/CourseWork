@@ -15,5 +15,7 @@ namespace WCFLogic.DTO
         public List<string> PassedTest { get; set; }
 
         public virtual ICollection<Test> Tests { get; set; }
+
+
     }
 }

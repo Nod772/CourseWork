@@ -527,52 +527,52 @@ namespace PresentationLayer.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.ITestService")]
-    public interface ITestService {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.ITeacherService")]
+    public interface ITeacherService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITestService/AddTeacher", ReplyAction="http://tempuri.org/ITestService/AddTeacherResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITeacherService/AddTeacher", ReplyAction="http://tempuri.org/ITeacherService/AddTeacherResponse")]
         void AddTeacher(PresentationLayer.ServiceReference1.TeacherDTO teasher);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITestService/AddTeacher", ReplyAction="http://tempuri.org/ITestService/AddTeacherResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITeacherService/AddTeacher", ReplyAction="http://tempuri.org/ITeacherService/AddTeacherResponse")]
         System.Threading.Tasks.Task AddTeacherAsync(PresentationLayer.ServiceReference1.TeacherDTO teasher);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITestService/DeleteTeacher", ReplyAction="http://tempuri.org/ITestService/DeleteTeacherResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITeacherService/DeleteTeacher", ReplyAction="http://tempuri.org/ITeacherService/DeleteTeacherResponse")]
         void DeleteTeacher(PresentationLayer.ServiceReference1.TeacherDTO teasher);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITestService/DeleteTeacher", ReplyAction="http://tempuri.org/ITestService/DeleteTeacherResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITeacherService/DeleteTeacher", ReplyAction="http://tempuri.org/ITeacherService/DeleteTeacherResponse")]
         System.Threading.Tasks.Task DeleteTeacherAsync(PresentationLayer.ServiceReference1.TeacherDTO teasher);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITestService/GetTeachers", ReplyAction="http://tempuri.org/ITestService/GetTeachersResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITeacherService/GetTeachers", ReplyAction="http://tempuri.org/ITeacherService/GetTeachersResponse")]
         PresentationLayer.ServiceReference1.TeacherDTO[] GetTeachers();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITestService/GetTeachers", ReplyAction="http://tempuri.org/ITestService/GetTeachersResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITeacherService/GetTeachers", ReplyAction="http://tempuri.org/ITeacherService/GetTeachersResponse")]
         System.Threading.Tasks.Task<PresentationLayer.ServiceReference1.TeacherDTO[]> GetTeachersAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ITestServiceChannel : PresentationLayer.ServiceReference1.ITestService, System.ServiceModel.IClientChannel {
+    public interface ITeacherServiceChannel : PresentationLayer.ServiceReference1.ITeacherService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class TestServiceClient : System.ServiceModel.ClientBase<PresentationLayer.ServiceReference1.ITestService>, PresentationLayer.ServiceReference1.ITestService {
+    public partial class TeacherServiceClient : System.ServiceModel.ClientBase<PresentationLayer.ServiceReference1.ITeacherService>, PresentationLayer.ServiceReference1.ITeacherService {
         
-        public TestServiceClient() {
+        public TeacherServiceClient() {
         }
         
-        public TestServiceClient(string endpointConfigurationName) : 
+        public TeacherServiceClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public TestServiceClient(string endpointConfigurationName, string remoteAddress) : 
+        public TeacherServiceClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public TestServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public TeacherServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public TestServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public TeacherServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         

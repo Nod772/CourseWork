@@ -10,7 +10,7 @@ using WCFLogic.DTO;
 namespace WCFLogic
 {
     [ServiceContract]
-    public interface ITestService
+    public interface ITeacherService
     {
         [OperationContract]
         void AddTeacher(TeacherDTO teasher);
