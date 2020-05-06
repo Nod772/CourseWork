@@ -1,0 +1,7 @@
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\bin\Debug\WCFLogic.dll.config
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\bin\Debug\WCFLogic.dll
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\bin\Debug\WCFLogic.pdb
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.dll
+C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.pdb
