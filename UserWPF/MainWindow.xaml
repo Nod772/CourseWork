@@ -1,0 +1,25 @@
+﻿<Window x:Class="UserWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="791.589">
+    <StackPanel>
+
+        <Grid x:Name="LoginWindow">
+            <RadioButton x:Name="Teacher_btn" Click="Teacher_CLick" Content="Teacher" Margin="265,48,441,338"/>
+            <RadioButton x:Name="User_btn"  Click="User_CLick" Content="User" Margin="377,48,343,340"  />
+            <TextBlock x:Name="LogText"  HorizontalAlignment="Left" Margin="265,87,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top"/>
+            <TextBox x:Name="Log_txt" HorizontalAlignment="Left" Height="23" Margin="265,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+            <Grid x:Name="LoginTeacherWindow">
+                <TextBlock HorizontalAlignment="Left" Margin="265,161,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+                <PasswordBox x:Name="Pass_txt" HorizontalAlignment="Left" Height="23" Margin="265,182,0,0"  VerticalAlignment="Top" Width="120"/>
+                <Button Content="Sign UP" Click="Signup_Click" HorizontalAlignment="Left" Margin="265,274,0,0" VerticalAlignment="Top" Width="117"/>
+            </Grid>
+                <Button x:Name="Sign_Btn" Content="Sign IN" Click="Login_Click" HorizontalAlignment="Left" Margin="265,232,0,0" VerticalAlignment="Top" Width="117"/>
+        </Grid>
+
+    </StackPanel>
+</Window>
