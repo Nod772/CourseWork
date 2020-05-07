@@ -1,0 +1,12 @@
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\Teacher.dll.config
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\Teacher.dll
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\Teacher.pdb
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\EntityFramework.dll
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\EntityFramework.xml
+C:\Users\Админ\source\repos\CourseWork\Teacher\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Админ\source\repos\CourseWork\Teacher\obj\Debug\Teacher.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\CourseWork\Teacher\obj\Debug\Teacher.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\CourseWork\Teacher\obj\Debug\Teacher.csproj.CopyComplete
+C:\Users\Админ\source\repos\CourseWork\Teacher\obj\Debug\Teacher.dll
+C:\Users\Админ\source\repos\CourseWork\Teacher\obj\Debug\Teacher.pdb

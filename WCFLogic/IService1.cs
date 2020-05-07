@@ -7,7 +7,6 @@ using System.Text;
 
 namespace WCFLogic
 {
-    // ПРИМЕЧАНИЕ. Команду "Переименовать" в меню "Рефакторинг" можно использовать для одновременного изменения имени интерфейса "IService1" в коде и файле конфигурации.
     [ServiceContract]
     public interface IService1
     {
@@ -17,7 +16,7 @@ namespace WCFLogic
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
-        // TODO: Добавьте здесь операции служб
+       
     }
 
     [DataContract]
