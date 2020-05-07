@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BaseTestLib",
+    "\\BaseTestLib\\Entity",
+    "\\PresentationLayer\\obj\\Debug",
+    "\\PresentationLayer\\obj\\Release",
+    "\\WCFLogic"
+  ],
+  "SelectedNode": "\\WCFLogic\\WCFLogic.sln",
+  "PreviewInSolutionExplorer": false
+}

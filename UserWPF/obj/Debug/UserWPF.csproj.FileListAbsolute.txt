@@ -1,0 +1,15 @@
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\bin\Debug\UserWPF.exe.config
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\bin\Debug\UserWPF.exe
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\bin\Debug\UserWPF.pdb
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\App.g.cs
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF_MarkupCompile.cache
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF_MarkupCompile.lref
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\MainWindow.baml
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.g.resources
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.Properties.Resources.resources
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.csproj.GenerateResource.cache
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.exe
+C:\Users\Админ\source\repos\NewCourseWork2\UserWPF\obj\Debug\UserWPF.pdb
