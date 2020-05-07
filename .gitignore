@@ -87,10 +87,13 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+<<<<<<< HEAD
+=======
 *.cache
 *.ide-shm
 *.ide-wal
 *.sqlite
+>>>>>>> master
 
 # Chutzpah Test files
 _Chutzpah*

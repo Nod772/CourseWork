@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\WCFLogic.dll.config
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\WCFLogic.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\WCFLogic.pdb
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\AutoMapper.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\BaseTestLib.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\EntityFramework.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\BaseTestLib.pdb
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\BaseTestLib.dll.config
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\AutoMapper.pdb
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\AutoMapper.xml
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\EntityFramework.xml
+D:\ITSTEP\CourseWork\WCFLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.csprojAssemblyReference.cache
+D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.csproj.CoreCompileInputs.cache
+D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.csproj.CopyComplete
+D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.dll
+D:\ITSTEP\CourseWork\WCFLogic\obj\Debug\WCFLogic.pdb
+=======
 C:\Users\Админ\source\repos\CourseWork\WCFLogic\bin\Debug\WCFLogic.dll.config
 C:\Users\Админ\source\repos\CourseWork\WCFLogic\bin\Debug\WCFLogic.dll
 C:\Users\Админ\source\repos\CourseWork\WCFLogic\bin\Debug\WCFLogic.pdb
@@ -5,3 +25,4 @@ C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.csprojAs
 C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.csproj.CoreCompileInputs.cache
 C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.dll
 C:\Users\Админ\source\repos\CourseWork\WCFLogic\obj\Debug\WCFLogic.pdb
+>>>>>>> master
